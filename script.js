@@ -269,7 +269,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // Add repair booking functionality
 function bookRepair(deviceType) {
     const message = `I'd like to book a repair for my ${deviceType}. Please contact me.`;
-    const whatsappUrl = `https://wa.me/233247654321?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/233249959686?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
 }
 
