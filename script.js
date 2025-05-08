@@ -81,26 +81,26 @@ const products = [
         badge: "Limited"
     },
     // i will edit this later
-    {
-        id: 8,
-        title: "Noise Cancelling Headphones",
-        price: 499.99,
-        originalPrice: 699.99,
-        image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-        category: "mobile",
-        rating: 5,
-        badge: "Limited"
-    },
-    {
-        id: 8,
-        title: "Noise Cancelling Headphones",
-        price: 499.99,
-        originalPrice: 699.99,
-        image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-        category: "mobile",
-        rating: 5,
-        badge: "Limited"
-    }
+    // {
+    //     id: 8,
+    //     title: "Noise Cancelling Headphones",
+    //     price: 499.99,
+    //     originalPrice: 699.99,
+    //     image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    //     category: "mobile",
+    //     rating: 5,
+    //     badge: "Limited"
+    // },
+    // {
+    //     id: 8,
+    //     title: "Noise Cancelling Headphones",
+    //     price: 499.99,
+    //     originalPrice: 699.99,
+    //     image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    //     category: "mobile",
+    //     rating: 5,
+    //     badge: "Limited"
+    // }
 ];
 
 // DOM Elements
