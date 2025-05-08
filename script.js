@@ -276,9 +276,9 @@ function bookRepair(deviceType) {
 // Update modal to handle repair inquiries
 function contactVia(method) {
     if(method === 'call') {
-        window.location.href = "tel:+2332449959686";
+        window.location.href = "tel:+233249959686";
     } else if(method === 'whatsapp') {
-        window.open("https://wa.me/233241234567", "_blank");
+        window.open("https://wa.me/233249959686", "_blank");
     } else if(method === 'email') {
         window.location.href = "mailto:anyagadgethub@gmail.com";
     }
