@@ -285,6 +285,6 @@ function contactVia(method) {
     } else if(method === 'whatsapp') {
         window.open("https://wa.me/233241234567", "_blank");
     } else if(method === 'email') {
-        window.location.href = "mailto:anyagadgethub@gmail.com";
+        window.location.href = "mailto:stormbizz@gmail.com";
     }
 }
