@@ -171,15 +171,14 @@ function contactVia(method) {
     
     switch(method) {
         case 'call':
-            window.location.href = `tel:+233249959686`;
+            window.location.href = `tel:+233244020836`;
             break;
         case 'whatsapp':
-            window.open(`https://wa.me/233249959686?text=${encodeURIComponent(message)}`, '_blank');
+            window.open(`https://wa.me/233244020836?text=${encodeURIComponent(message)}`, '_blank');
             // window.open(`https://wa.me/233241234567?text=${encodeURIComponent(message)}`, '_blank');
             break;
         case 'email':
-            window.location.href = `mailto:blackweb914@gmail.com?subject=Order for ${selectedProduct.title}&body=${encodeURIComponent(message)}`;
-            // window.location.href = `mailto:orders@anyagadgethub.com?subject=Order for ${selectedProduct.title}&body=${encodeURIComponent(message)}`;
+            window.location.href = `mailto:stormbizz@gmail.com?subject=Order for ${encodeURIComponent(selectedProduct.title)}&body=${encodeURIComponent(message)}`;
             break;
     }
     
@@ -276,10 +275,10 @@ function bookRepair(deviceType) {
 // Update modal to handle repair inquiries
 function contactVia(method) {
     if(method === 'call') {
-        window.location.href = "tel:+233244020836";
+        window.location.href = "tel:+233241234567";
     } else if(method === 'whatsapp') {
-        window.open(`https://wa.me/233244020836?text=${encodeURIComponent(message)}`, '_blank');
+        window.open("https://wa.me/233241234567", "_blank");
     } else if(method === 'email') {
-        window.location.href = `mailto:stormbizz@gmail.com?subject=Order for ${selectedProduct.title}&body=${encodeURIComponent(message)}`;
+        window.location.href = "mailto:anyagadgethub@gmail.com";
     }
 }
