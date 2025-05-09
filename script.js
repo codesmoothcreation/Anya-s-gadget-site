@@ -269,17 +269,17 @@ document.addEventListener('DOMContentLoaded', () => {
 // Add repair booking functionality
 function bookRepair(deviceType) {
     const message = `I'd like to book a repair for my ${deviceType}. Please contact me.`;
-    const whatsappUrl = `https://wa.me/233249959686?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/233244020836?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
 }
 
 // Update modal to handle repair inquiries
 function contactVia(method) {
     if(method === 'call') {
-        window.location.href = "tel:+233249959686";
+        window.location.href = "tel:+233244020836";
     } else if(method === 'whatsapp') {
-        window.open("https://wa.me/233249959686", "_blank");
+        window.open(`https://wa.me/233244020836?text=${encodeURIComponent(message)}`, '_blank');
     } else if(method === 'email') {
-        window.location.href = "mailto:anyagadgethub@gmail.com";
+        window.location.href = `mailto:stormbizz@gmail.com?subject=Order for ${selectedProduct.title}&body=${encodeURIComponent(message)}`;
     }
 }
