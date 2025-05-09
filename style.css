@@ -805,6 +805,7 @@ footer {
 }
 
 /* ========== RESPONSIVE STYLING ========== */
+/* ========== RESPONSIVE STYLING ========== */
 @media (max-width: 991px) {
     /* Adjust hero padding */
     .hero {
@@ -885,6 +886,7 @@ footer {
         width: 100%;
         padding: 20px 0;
         gap: 15px;
+        text-align: center; /* Center menu items */
     }
     
     /* Show nav links when active */
