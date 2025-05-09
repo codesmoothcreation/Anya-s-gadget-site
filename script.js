@@ -174,11 +174,17 @@ function contactVia(method) {
             window.location.href = `tel:+233244020836`;
             break;
         case 'whatsapp':
-            window.open(`https://wa.me/233244020836?text=${encodeURIComponent(message)}`, '_blank');
+            window.open("https://wa.me/233241234567", "_blank");
+            // window.open(`https://wa.me/233244020836?text=${encodeURIComponent(message)}`, '_blank');
             // window.open(`https://wa.me/233241234567?text=${encodeURIComponent(message)}`, '_blank');
             break;
         case 'email':
-            window.location.href = `mailto:stormbizz@gmail.com?subject=Order for ${encodeURIComponent(selectedProduct.title)}&body=${encodeURIComponent(message)}`;
+            if (selectedProduct) {
+                window.location.href = `mailto:stormbizz@gmail.com?subject=Order for ${selectedProduct.title}&body=${encodeURIComponent(message)}`;
+            } else {
+                console.error("No product selected. Please select a product before contacting.");
+            }
+            // window.location.href = `mailto:stormbizz@gmail.com?subject=Order for ${encodeURIComponent(selectedProduct.title)}&body=${encodeURIComponent(message)}`;
             break;
     }
     
