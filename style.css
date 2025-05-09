@@ -1,13 +1,13 @@
 /* Color variables for easy theming */
 :root {
-    --primary-color: #6c63ff;       /* Main brand color */
-    --secondary-color: #4d44db;     /* Darker shade for hover states */
-    --dark-color: #2a2a2a;          /* Text color */
-    --light-color: #f8f9fa;        /* Light background */
-    --danger-color: #dc3545;        /* For badges/sale items */
-    --success-color: #28a745;       /* For success messages */
-    --warning-color: #ffc107;      /* For ratings */
-    --info-color: #17a2b8;         /* For informational elements */
+    --primary-color: #6c63ff;      
+    --secondary-color: #4d44db;    
+    --dark-color: #2a2a2a;         
+    --light-color: #f8f9fa;        
+    --danger-color: #dc3545;        
+    --success-color: #28a745;       
+    --warning-color: #ffc107;      
+    --info-color: #17a2b8;         
 }
 
 /* Reset default browser styles */
@@ -804,7 +804,7 @@ footer {
     font-size: 20px;
 }
 
-/* ========== RESPONSIVE STYLES ========== */
+/* ========== RESPONSIVE STYLING ========== */
 @media (max-width: 991px) {
     /* Adjust hero padding */
     .hero {
@@ -874,6 +874,8 @@ footer {
     .hamburger {
         display: block;
         order: 1;
+        margin-left: 10px; /* Slightly move hamburger from the left */
+        font-size: 24px;
     }
     
     /* Hide nav links by default on mobile */
@@ -924,6 +926,56 @@ footer {
 }
 
 @media (max-width: 576px) {
+    /* Adjust hero padding */
+    .hero {
+        padding: 40px 0;
+    }
+    
+    /* Further reduce hero heading size */
+    .hero-content h2 {
+        font-size: 28px;
+    }
+    
+    /* Further reduce section title size */
+    .section-title {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    
+    /* Single column layout for very small screens */
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Adjust category grid */
+    .category-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Adjust deal banner text */
+    .deal-content h3 {
+        font-size: 24px;
+    }
+    
+    .deal-content p {
+        font-size: 16px;
+    }
+    
+    /* Smaller back to top button */
+    .back-to-top {
+        width: 40px;
+        height: 40px;
+        bottom: 15px;
+        right: 15px;
+    }
+    
+    /* Adjust modal padding */
+    .modal-content {
+        padding: 20px 15px;
+    }
+}
+
+@media (max-width: 414px) {
     /* Adjust hero padding */
     .hero {
         padding: 40px 0;
