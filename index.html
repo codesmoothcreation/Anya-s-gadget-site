@@ -76,17 +76,34 @@
             <h2 class="section-title">Our Categories</h2>
             <div class="category-grid">
                 <div class="category-card" onclick="filterProducts('mobile')">
-                    <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Mobile Accessories">
-                    <h3>Mobile Accessories</h3>
+                    <a href="#mobile" style="text-decoration: none;">
+                        <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Mobile Accessories">
+                        <h3>Mobile Accessories</h3>
+                    </a>
                 </div>
                 <div class="category-card" onclick="filterProducts('laptop')">
-                    <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Laptops">
-                    <h3>Laptops</h3>
+                    <a href="#laptop" style="text-decoration: none;">
+                        <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Laptops">
+                        <h3>Laptops</h3>
+                    </a>
                 </div>
                 <div class="category-card" onclick="location.href='#repairs'">
                     <img src="https://images.pexels.com/photos/6755052/pexels-photo-6755052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Repair Services">
                     <h3>Repair Services</h3>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PRODUCTS SECTION ========== -->
+    <a name="mobile"></a>
+     <a name="laptop"></a>
+     <a name="shopNow"></a>
+    <section class="featured-products animate-on-scroll">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="product-grid" id="productGrid">
+                <!-- Products will be loaded here via JavaScript -->
             </div>
         </div>
     </section>
@@ -134,17 +151,6 @@
                     <div><i class="fas fa-check-circle"></i> Genuine Parts</div>
                 </div>
                 <a href="#contact" class="btn" onclick="showOrderModal()" >Book a Repair</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ========== PRODUCTS SECTION ========== -->
-    <a name="categories"></a>
-    <section class="featured-products animate-on-scroll">
-        <div class="container">
-            <h2 class="section-title">Featured Products</h2>
-            <div class="product-grid" id="productGrid">
-                <!-- Products will be loaded here via JavaScript -->
             </div>
         </div>
     </section>
